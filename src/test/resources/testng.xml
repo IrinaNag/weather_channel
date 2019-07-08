@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="Test" >
         <classes>
-            <class name="com.testattenti.apiWeather.GettingWeatherForZipTest" />
+            <class name="com.testattenti.weather.GettingWeatherForZipTest" />
         </classes>
     </test>
 </suite>

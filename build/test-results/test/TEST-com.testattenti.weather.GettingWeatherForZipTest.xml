@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testattenti.weather.GettingWeatherForZipTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-08T06:59:32" hostname="Irishka" time="80.887">
+  <properties/>
+  <testcase name="testGettingWeatherForZip" classname="com.testattenti.weather.GettingWeatherForZipTest" time="80.887"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 6046
+Only local connections are allowed.
+[1562569164.677][WARNING]: Timed out connecting to Chrome, retrying...
+??? 08, 2019 9:59:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[1562569169.552][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>

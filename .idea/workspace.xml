@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2566a926-f49c-42f4-b8fa-49af95284f11" name="Default Changelist" comment="" />
+    <list default="true" id="2566a926-f49c-42f4-b8fa-49af95284f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/testattenti/weather/GettingWeatherForZipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/testattenti/weather/GettingWeatherForZipTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/testattenti/weather/model/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/testattenti/weather/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/testattenti/weather/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/testattenti/weather/GettingWeatherForZipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/testattenti/weather/GettingWeatherForZipTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,12 +41,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="weather_channel" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weather_channel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weather_channel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -37,7 +73,7 @@
     <session id="-22538554">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.129" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -49,47 +85,48 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.74" value="2" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="5" />
+          <entry key="gradle" value="6" />
           <entry key="html" value="1" />
-          <entry key="java" value="60" />
-          <entry key="xml" value="4" />
+          <entry key="java" value="61" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="5" />
+          <entry key="Groovy" value="6" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="60" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="61" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="169" />
-          <entry key="gradle" value="41" />
-          <entry key="java" value="4805" />
-          <entry key="xml" value="12" />
+          <entry key="gradle" value="44" />
+          <entry key="java" value="4808" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="41" />
-          <entry key="JAVA" value="4805" />
+          <entry key="Groovy" value="44" />
+          <entry key="JAVA" value="4808" />
           <entry key="PLAIN_TEXT" value="169" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/GettingWeatherForZipTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -102,6 +139,36 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -110,6 +177,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -289,9 +359,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6248733371090" />
+        <entry key="$PROJECT_DIR$" value="6248894238829" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3842425758" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2442481885" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2339301424" />
       </map>
@@ -430,12 +500,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/GetWeatherForZipTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/GettingWeatherTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/model/Vt1observation.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/model/WeaterFromSite.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/model/SiteWeather.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/GettingWeatherForZipTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       </list>
     </option>
   </component>
@@ -468,18 +538,12 @@
             <path>
               <item name="weather_channel" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather_channel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weather_channel" type="b2602c69:ProjectViewProjectNode" />
               <item name="weather_channel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather_channel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather_channel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="weather_channel" type="b2602c69:ProjectViewProjectNode" />
@@ -507,9 +571,7 @@
               <item name="weather_channel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -523,7 +585,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562541483664" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562569317855" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../conversions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -536,6 +598,10 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.testattenti.weather.model" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Irina\Documents\GitHub\weather_channel\src\test\resources" />
+      <recent name="C:\Users\Irina\Documents\GitHub\weather_channel" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.testattenti.weather.model" />
@@ -554,7 +620,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GettingWeatherForZipTest.testGettingWeatherForZip">
+  <component name="RunManager" selected="Gradle.weather_channel [check]">
+    <configuration name="weather_channel [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="GetWeatherForZipTest.testGetWeatherForZip" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="weather_channel_test" />
       <extension name="coverage">
@@ -630,11 +714,13 @@
       <item itemvalue="TestNG.GettingWeatherForZipTest.testGettingWeather" />
       <item itemvalue="TestNG.GettingWeatherForZipTest.testGettingWeatherForZip" />
       <item itemvalue="TestNG.GettingWeatherForZipTest" />
+      <item itemvalue="Gradle.weather_channel [check]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GettingWeatherForZipTest.testGettingWeatherForZip" />
+        <item itemvalue="Gradle.weather_channel [check]" />
         <item itemvalue="TestNG.GettingWeatherForZipTest" />
+        <item itemvalue="TestNG.GettingWeatherForZipTest.testGettingWeatherForZip" />
         <item itemvalue="TestNG.GettingWeatherForZipTest.testGettingWeather" />
         <item itemvalue="TestNG.GetWeatherForZipTest.testGetWeatherForZip" />
       </list>
@@ -663,31 +749,11 @@
       <workItem from="1562485629468" duration="23000" />
       <workItem from="1562486636079" duration="28912000" />
       <workItem from="1562528123662" duration="11270000" />
+      <workItem from="1562566870515" duration="2375000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.07 at 23h 58m 04s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 00h 02m 29s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 00h 51m 40s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 00h 56m 27s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 01h 00m 42s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 01h 17m 40s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 01h 23m 02s.xml">
-      <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 01h 30m 55s.xml">
       <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
     </history-entry>
@@ -697,14 +763,35 @@
     <history-entry file="GettingWeatherForZipTest_testGettingWeatherForZip - 2019.07.08 at 02h 08m 59s.xml">
       <configuration name="GettingWeatherForZipTest.testGettingWeatherForZip" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GettingWeatherForZipTest - 2019.07.08 at 09h 33m 10s.xml">
+      <configuration name="GettingWeatherForZipTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 45m 19s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 46m 28s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 49m 19s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 50m 32s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 55m 22s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="weather_channel_[check] - 2019.07.08 at 09h 57m 32s.xml">
+      <configuration name="weather_channel [check]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104923000" />
+    <option name="totallyTimeSpent" value="107298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -815,22 +902,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/model/WeaterFromSite.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/model/Vt1observation.java">
@@ -858,58 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding>
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3135#3136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,6 +942,30 @@
             <element signature="e#1329#1330#0" expanded="true" />
             <element signature="e#1356#1357#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testattenti/weather/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>

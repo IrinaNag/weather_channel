@@ -26,11 +26,12 @@ public class ApplicationManager {
     /***----------Initialisation & close resources methods---------------***/
 
     public void start() {
-        httpClient = HttpClients.custom().setRedirectStrategy(new LaxRedirectStrategy()).build();
-        objectMapper = new ObjectMapper();
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        httpClient = HttpClients.custom().setRedirectStrategy(new LaxRedirectStrategy()).build();
+        objectMapper = new ObjectMapper();
     }
 
     public void stop() throws IOException {
@@ -73,19 +74,19 @@ public class ApplicationManager {
 
     public SiteWeather gettingResultsToObject() {
         int temperature = parsResulToInt(By.xpath("//div[@class='today_nowcard-temp']//span"));
-        int feelsLike= parsResulToInt(By.xpath("//span[@class='deg-feels']"));
-        int uvIndex= parsResulToInt(By.xpath("//div[@class='today_nowcard-hilo']//div/span[2]"),6);
-        int windSpeed= parsResulToInt(By.xpath("//tr[1]//td[1]/span"));
-        int humidity= parsResulToInt(By.xpath("//tr[2]//td[1]/span"));
-        int dewPoint= parsResulToInt(By.xpath("//tr[3]//td[1]/span"));
-        double pressure= parsResultToDouble(By.xpath("//tr[4]//td[1]/span"));
-        double visibility= parsResultToDouble(By.xpath("//tr[5]//td[1]/span"));
-        return new SiteWeather(temperature,feelsLike,uvIndex,windSpeed,humidity,dewPoint,pressure,visibility);
+        int feelsLike = parsResulToInt(By.xpath("//span[@class='deg-feels']"));
+        int uvIndex = parsResulToInt(By.xpath("//div[@class='today_nowcard-hilo']//div/span[2]"), 6);
+        int windSpeed = parsResulToInt(By.xpath("//tr[1]//td[1]/span"));
+        int humidity = parsResulToInt(By.xpath("//tr[2]//td[1]/span"));
+        int dewPoint = parsResulToInt(By.xpath("//tr[3]//td[1]/span"));
+        double pressure = parsResultToDouble(By.xpath("//tr[4]//td[1]/span"));
+        double visibility = parsResultToDouble(By.xpath("//tr[5]//td[1]/span"));
+        return new SiteWeather(temperature, feelsLike, uvIndex, windSpeed, humidity, dewPoint, pressure, visibility);
     }
 
     public double parsResultToDouble(By locator) {
         String str = driver.findElement(locator).getText();
-        return Double.parseDouble(str.replaceAll("[^.0-9]+",""));
+        return Double.parseDouble(str.replaceAll("[^.0-9]+", ""));
     }
 
     public int parsResulToInt(By locator, int numberEndSimbolsFofDelete) {
@@ -95,7 +96,7 @@ public class ApplicationManager {
 
     public int parsResulToInt(By locator) {
         String str = driver.findElement(locator).getText();
-        return Integer.parseInt(str.replaceAll("\\D+",""));
+        return Integer.parseInt(str.replaceAll("\\D+", ""));
     }
 
     /***----------API methods---------------***/
